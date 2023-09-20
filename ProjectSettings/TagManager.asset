@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sprites
+    uniqueID: 3958037337
+    locked: 0
+  - name: Game Board
+    uniqueID: 2067036695
+    locked: 0
