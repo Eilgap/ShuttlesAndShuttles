@@ -39,8 +39,9 @@
      <Compile Include="Assets\Scripts\CharacterSelections.cs" />
      <Compile Include="Assets\Scripts\PlayerAmount.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\CreditsScript.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\CreditsScript.cs" />
+     <Compile Include="Assets\Scripts\GameBoardController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.38f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

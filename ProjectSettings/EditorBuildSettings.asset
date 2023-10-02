@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectPlayerAmount.unity
     guid: 9ab7966dfe047414b9c2cbcdb0293b76
   - enabled: 1
+    path: Assets/Scenes/SelectCharacters.unity
+    guid: 23f592b8c5783eb4785190e3b57e9f21
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: bb4130d5f8951e84d97b40f112d78da1
   - enabled: 1

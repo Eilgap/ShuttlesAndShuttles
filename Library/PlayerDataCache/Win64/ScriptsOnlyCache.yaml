@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CharacterSelections
     - CreditsScript
+    - GameBoardController
     - MainMenu
     - PlayerAmount
     Unity.2D.Animation.Editor.dll:
@@ -50,17 +52,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2256}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3360}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -93,16 +95,24 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3108}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3484}
+    - Class: 114
+      Script: {instanceID: 27552}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -136,21 +146,70 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 2256}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3482}
+      Script: {instanceID: 3484}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/SelectCharacters.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1522}
+    - Class: 114
+      Script: {instanceID: 2174}
+    - Class: 114
+      Script: {instanceID: 2258}
+    - Class: 114
+      Script: {instanceID: 2698}
+    - Class: 114
+      Script: {instanceID: 2870}
+    - Class: 114
+      Script: {instanceID: 3108}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -185,21 +244,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 2256}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2358}
+      Script: {instanceID: 2360}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3482}
+      Script: {instanceID: 3484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -297,7 +356,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 8ad6418c16742ad4017403c6bc801545
+      Hash: 19d746297f699faaaaf06fa10c4fb9b9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterSelections
@@ -333,7 +392,7 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: 4fd2dff746e9a16f254686196fb716bb
+      Hash: a9fa7a1f8428e78f326a262546a03a60
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerAmount
@@ -381,6 +440,12 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
+      Hash: fb965ad317174b25005f16e902219b18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: fe64a45214940b510a0ec79c96d43498
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -403,12 +468,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 23ccd035a6a2d3ca8c85f2882047fa84
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Players
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -763,10 +822,17 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: bd5759c4a717b4ed2173490fdec81745
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameBoardController
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SelectPlayerAmount.unity
+  - Assets/Scenes/SelectCharacters.unity
   - Assets/Scenes/Credits.unity
   - Assets/Scenes/GameBoard.unity
-  playerPath: C:/Users/amoeb/Downloads/ShuttlesAndShuttles.exe
+  playerPath: C:/Users/amoeb/Downloads/FinalGameBuild/ShuttlesAndShuttles.exe

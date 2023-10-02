@@ -8,6 +8,10 @@ public class PlayerAmount : MonoBehaviour
 {
     public int playerCount;
     public Text CountText;
+    public Player player1 = new Player();
+    public Player player2 = new Player();
+    public Player player3 = new Player();
+    public Player player4 = new Player();
     // Start is called before the first frame update
     void Start()
     {
@@ -46,8 +50,10 @@ public class PlayerAmount : MonoBehaviour
 
     public void continueButton()
     {
-        SceneManager.LoadScene("GameBoard");
+        PlayerPrefs.SetInt("PlayerAmount", playerCount);
+        SceneManager.LoadScene("SelectCharacters");
         //For after the game works:
         //SceneManager.LoadScene("SelectCharacters");
     }
+
 }
