@@ -32,6 +32,8 @@ public class GameBoardController : MonoBehaviour
     public Text rollText;
     public int currentTurn;
     public Button rollButton;
+    public Vector3 move;
+    public bool moving;
     // Start is called before the first frame update
     
     void Start()
@@ -84,6 +86,8 @@ public class GameBoardController : MonoBehaviour
     void Update()
     {
         turnText.text = "It is currently player " + currentTurn + "'s turn";
+        /*move = new Vector3(xCoorOfPos(90), yCoorOfPos(90), 0);
+        play1.transform.position = Vector3.MoveTowards(play1.transform.position, move, 15f * Time.deltaTime);*/
     }
 
     public void setPlayerActive(int c)
