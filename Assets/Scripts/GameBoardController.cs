@@ -194,7 +194,7 @@ public class GameBoardController : MonoBehaviour
                 xCoor = -1.5f;
                 break;
             case 5:
-                xCoor = -.5f;
+                xCoor = -000.5f;
                 break;
             case 6:
                 xCoor = .5f;
@@ -282,7 +282,7 @@ public class GameBoardController : MonoBehaviour
                 yCoor = -1.5f;
                 break;
             case 5:
-                yCoor = -.5f;
+                yCoor = -000.5f;
                 break;
             case 6:
                 yCoor = .5f;
@@ -303,7 +303,6 @@ public class GameBoardController : MonoBehaviour
                 yCoor = -3;
                 break;
         }
-
         return yCoor;
     }
 
